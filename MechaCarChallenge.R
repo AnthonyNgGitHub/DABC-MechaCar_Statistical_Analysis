@@ -47,3 +47,9 @@ subtset_Lot3 <- subset(suspension_coil, Manufacturing_Lot == "Lot3")
 
 # t-test on Lot1
 t.test(subtset_Lot1$PSI,mu=population_mean_PSI)
+
+# t-test on Lot2
+t.test(subtset_Lot2$PSI,mu=population_mean_PSI)
+
+# t-test on Lot3
+t.test(subtset_Lot3$PSI,mu=population_mean_PSI)
